@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/_0latcz"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/searchbycategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--  <FrameLayout
+              android:id="@+id/anything"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"/>-->
+
+        <GridLayout
+            android:layout_width="393dp"
+            android:layout_height="640dp"
+            android:layout_margin="30dp"
+            android:columnCount="3"
+            android:rowCount="9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+            <Button
+                android:id="@+id/Fire"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="FIRE"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                app:backgroundTint="#F7D7DC"
+
+                />
+
+            <Button
+                android:id="@+id/Normal"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/normal"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                app:backgroundTint="#F7D7DC"
+                tools:ignore="TextContrastCheck"/>
+
+
+            <Button
+                android:id="@+id/Water"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/water"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/Grass"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/grass"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/Electrik"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/electrik"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/Venom"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/venom"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/Dragon"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/dragon"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/Dark"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/dark"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/Ice"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/ice"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/Fairy"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/fairy"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/Rock"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/rock"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/Ground"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/ground"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/Bug"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/bug"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/Steel"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/steel"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/Ghost"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/ghost"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/Combat"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/combat"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/Flying"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/flying"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/Psychic"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius"
+                android:text="@string/psychic"
+                android:textColor="@color/red"
+                app:backgroundTint="#F7D7DC"
+                android:textSize="18sp" />
+            <ImageButton
+                android:id="@+id/searchImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="@string/search_by_type"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#F7D7DC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="dark">Dark</string>
+    <string name="bug">Bug</string>
+    <string name="fire">Fire</string>
+    <string name="water">Water</string>
+    <string name="combat">Combat</string>
+    <string name="psychic">Psychic</string>
+    <string name="search_by_type">Search by type</string>
+    <string name="normal">Normal</string>
+    <string name="electrik">Electrik</string>
+    <string name="flying">Flying</string>
+    <string name="venom">Venom</string>
+    <string name="ghost">Ghost</string>
+    <string name="dragon">Dragon</string>
+    <string name="steel">Steel</string>
+    <string name="ice">Ice</string>
+    <string name="fairy">Fairy</string>
+    <string name="ground">Ground</string>
+    <string name="rock">Rock</string>
+    <string name="grass">Grass</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+</resources>
